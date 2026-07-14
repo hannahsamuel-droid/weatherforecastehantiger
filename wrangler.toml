@@ -1,0 +1,13 @@
+# wrangler.toml
+# Cloudflare Pages deployment configuration for Weather Intelligence App
+
+name = "weather-intelligence-app"
+compatibility_date = "2026-07-14"
+
+# Static site configurations
+[site]
+bucket = "./dist"
+
+# Target routes if needed, otherwise Pages builds automatically on commit push
+# Build Command on Cloudflare Pages dashboard: npm run build
+# Build Output Directory on Cloudflare Pages dashboard: dist
