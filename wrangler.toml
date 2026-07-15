@@ -1,7 +1,7 @@
 # wrangler.toml
 # Cloudflare Pages deployment configuration for Weather Intelligence App
 
-name = "weather-intelligence-app"
+name = "weatherforecastehantiger"
 compatibility_date = "2026-07-14"
 
 # Static site configurations
